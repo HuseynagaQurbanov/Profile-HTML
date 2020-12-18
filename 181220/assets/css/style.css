@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+.frame {
+    margin-top: -200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.frame .center {
+    position: absolute;
+    height: 297px;
+    width: 320px;
+    background-color: white;
+    margin: 48px 35px;
+    box-shadow: 5px 5px 20px #181831;
+}
+
+.frame .center .left-side {
+    float: left;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+
+.frame .center .left-side .photo {
+    position: relative;
+    height: 87px;
+    width: 108px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.frame .center .left-side .photo img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.frame .center .left-side .photo .circle1 {
+    position: absolute;
+    border: 1px solid;
+    height: 92px;
+    width: 95px;
+    left: 8px;
+    top: -3px;
+    border-radius: 50%;
+    border-color: #0c10ee transparent #ce1010 transparent;
+    transition: all 1.5s ease-in-out;
+}
+
+.frame .center .left-side .photo:hover .circle1 {
+    transform: rotate(360deg);
+}
+
+.frame .center .left-side .photo:hover .circle2 {
+    transform: rotate(540deg);
+}
+
+.frame .center .left-side .photo .circle2 {
+    position: absolute;
+    border: 1px solid;
+    height: 98px;
+    width: 101px;
+    left: 5px;
+    top: -6px;
+    border-radius: 50%;
+    border-color: #00ff00 #009e00 #005800 transparent;
+    transition: all 1s ease-in-out;
+}
+
+.frame .center .left-side .information .name {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.frame .center .left-side .information .job {
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.frame .center .left-side .follow-message {
+    width: 200px;
+}
+
+.frame .center .left-side .follow-message .follow-btn .follow {
+    border: 1px solid #a2a2a2;
+    border-radius: 20px 20px;
+    padding: 10px;
+    width: 140px;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.frame .center .left-side .follow-message .message-btn .message {
+    border: 1px solid #a2a2a2;
+    border-radius: 20px 20px;
+    padding: 10px;
+    width: 140px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.frame .center .right-side {
+    float: right;
+    width: 120px;
+    height: 297px;
+    background-color: #ffe5f0;
+}
+
+.frame .center .right-side .posts {
+    padding: 15px;
+    border-bottom: 1px solid #e2d8d8;
+    transition: all 0.5s;
+}
+
+.frame .center .right-side .posts:hover {
+    background-color: #e0aeae;
+}
+
+.frame .center .right-side .posts .post {
+    text-align: center;
+}
+
+.frame .center .right-side .likes {
+    padding: 15px;
+    border-bottom: 1px solid #e2d8d8;
+    transition: all 0.5s;
+}
+
+.frame .center .right-side .likes:hover {
+    background-color: #e0aeae;
+}
+
+.frame .center .right-side .likes .like {
+    text-align: center;
+}
+
+.frame .center .right-side .followers {
+    padding: 14px;
+    border-bottom: 1px solid #e2d8d8;
+    transition: all 0.5s;
+}
+
+.frame .center .right-side .followers:hover {
+    background-color: #e0aeae;
+}
+
+.frame .center .right-side .followers .follower {
+    text-align: center;
+}
